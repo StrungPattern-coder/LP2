@@ -4,6 +4,7 @@
 # Cloud-Based Student Record Management System
 # Complete End-to-End AWS EC2 Deployment Script
 ############################################################
+# sudo apt install git -y
 # cd ~/10_student_record_management_system
 # chmod +x setup.sh
 # ./setup.sh
