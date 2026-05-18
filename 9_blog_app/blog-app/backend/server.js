@@ -34,7 +34,9 @@ app.options(/.*/, cors(corsOptions));
 app.use(express.json());
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/blogDB")
+mongoose.connect(
+    "mongodb+srv://lp2_user:lp2password123@cluster0.fasrzsm.mongodb.net/blogDB?retryWrites=true&w=majority&appName=Cluster0"
+)
 .then(() => console.log("MongoDB Connected"))
 .catch((err) => console.log(err));
 
